@@ -143,7 +143,7 @@ export default function App() {
   };
 
   return (
-    // Gunakan bg-stone-50 untuk nuansa 'earthy' yang hangat, bukan gray dingin
+    // Gunakan bg-stone-50 untuk nuansa 'earthy'
     <div className="min-h-screen font-sans bg-stone-50 text-stone-800">
       
       {/* --- NAVBAR --- */}
@@ -184,7 +184,7 @@ export default function App() {
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 text-xs font-bold tracking-wider uppercase border rounded-full bg-lime-500/20 border-lime-400/30 text-lime-300 backdrop-blur-md">
               <Microscope className="w-4 h-4" />
-              Teknologi AI Terbaru
+              Teknologi AI Untuk Pertanian
             </div>
             <h1 className="mb-6 text-4xl font-extrabold leading-tight text-white md:text-6xl">
               Smart Rice <br/>
@@ -358,12 +358,12 @@ export default function App() {
             <FeatureCard 
               icon={<ShieldCheck className="w-8 h-8 text-emerald-600" />}
               title="Akurasi Tinggi"
-              desc="Menggunakan model Deep Learning yang dilatih pada ribuan dataset penyakit tanaman padi global."
+              desc="Menggunakan model Computer Vision yang dilatih pada ribuan dataset penyakit tanaman padi global."
             />
             <FeatureCard 
               icon={<Activity className="w-8 h-8 text-emerald-600" />}
               title="Real-Time Processing"
-              desc="Pemrosesan gambar dilakukan langsung di browser menggunakan TensorFlow.js tanpa delay upload server."
+              desc="Pemrosesan gambar dilakukan langsung menggunakan Artificial Intelligence."
             />
             <FeatureCard 
               icon={<Sprout className="w-8 h-8 text-emerald-600" />}
@@ -383,7 +383,7 @@ export default function App() {
              <span className="text-xl font-bold tracking-wide text-emerald-100">AI AGRI LAB</span>
           </div>
           <p className="mb-4 text-sm">Dikembangkan untuk masa depan pertanian Indonesia.</p>
-          <p className="text-xs">&copy; 2025 AI AGRI LAB. All Rights Reserved.</p>
+          <p className="text-xs">&copy; 2026 AI AGRI LAB. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
